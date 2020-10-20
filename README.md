@@ -20,19 +20,20 @@ O Happy é uma aplicação que conecta pessoas à orfanatos/instituições que c
 
 ![ferramentas.png](https://github.com/SusanaMCosta/Happy/blob/main/ferramentas.png)
 
-## Execução
+## Instalação e Start
 
-**Para a execução do projeto, basta seguir os seguintes passos:**
+Cada parte do projeto tem suas dependências e é necessário instalá-las individualmente antes da execução. Para isso, certifique-se de que tenha o [NPM](https://www.npmjs.com/) ou o [YARN](https://yarnpkg.com/) instalado em seu ambiente, além, é claro, o repositório clonado em seu ambiente.
 
-No terminal do seu computador digite:
+Clone o repositório com:
 
 ```sh
-yarn install
-yarn android
+git clone https://github.com/SusanaMCosta/Happy.git
 ```
-ou
+As demonstrações utilizam YARN por padronização, mas, caso use NPM, basta substituir onde estiver escrito yarn por npm.
+
+**Instalando dependências do projeto web:**
 
 ```sh
-npm install
-npm run android
+cd happy/web
+yarn install
 ```
