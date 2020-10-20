@@ -10,7 +10,7 @@
 
 ## Versão Mobile
 
-![Happy-Mobile.gif](https://media.giphy.com/media/DluNVzZStjiRvheesh/giphy.gif)
+![Happy-Mobile.gif](https://github.com/SusanaMCosta/Happy/blob/main/happy-mobile.gif)
 
 ## Informações
 
