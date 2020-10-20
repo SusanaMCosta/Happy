@@ -6,11 +6,11 @@
 
 ## Versão Web
 
-![Happy.gif](https://media.giphy.com/media/JAwSpBWaquHNFGhsJQ/giphy.gif)
+![Happy-Web.gif](https://media.giphy.com/media/JAwSpBWaquHNFGhsJQ/giphy.gif)
 
 ## Versão Mobile
 
-
+![Happy-Mobile.gif](https://media.giphy.com/media/DluNVzZStjiRvheesh/giphy.gif)
 
 ## Informações
 
