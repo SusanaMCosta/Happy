@@ -27,40 +27,42 @@ Cada parte do projeto tem suas dependências e é necessário instalá-las indiv
 Clone o repositório com:
 
 ```sh
-git clone https://github.com/SusanaMCosta/Happy.git
+> git clone https://github.com/SusanaMCosta/Happy.git
 ```
+
 As demonstrações utilizam YARN por padronização, mas, caso use NPM, basta substituir onde estiver escrito ```yarn``` por ```npm```.
 
 **Instalando dependências do projeto web:**
 
 ```sh
-cd happy/web
-yarn install
+> cd happy/web
+> yarn install
 ```
+
 Para executar o projeto web completo é necessário ter um token de autenticação da API do Mapbox. Acesse sua conta no site e crie um token para ser utilizado no projeto. Com o token em mãos, crie um arquivo ```.env``` e coloque seu token como valor da chave ```REACT_APP_MAPBOX_TOKEN```.
 
 Exemplo:
 ```sh
-REACT_APP_MAPBOX_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+> REACT_APP_MAPBOX_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 Agora starte o projeto em seu ambiente com:
-```
-yarn start
+```sh
+> yarn start
 ```
 
 Acesse: ```http://127.0.0.1:3000/``` para visualizar.
 
 **Instalando dependências do projeto backend:**
-```
-cd happy/backend
-yarn install
+```sh
+> cd happy/backend
+> yarn install
 ```
 
 Para executar o projeto **backend** é necessário criar o banco de dados com todas as tabelas utilizadas, para isso, use no diretório correspondente:
-```
-yarn typeorm migration:run
-yarn dev
+```sh
+> yarn typeorm migration:run
+> yarn dev
 ```
 
 Acesse: ```http://127.0.0.1:3333/``` para visualizar.
