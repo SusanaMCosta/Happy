@@ -18,7 +18,7 @@ O Happy é uma aplicação que conecta pessoas à orfanatos/instituições que c
 
 ## Ferramentas
 
-![ferramentas.png](https://github.com/SusanaMCosta/calculadora/blob/master/ferramentas.png)
+![ferramentas.png](https://github.com/SusanaMCosta/Happy/blob/main/ferramentas.png)
 
 ## Execução
 
